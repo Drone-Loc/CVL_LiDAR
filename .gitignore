@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.DS_Store
+results/
+checkpoints/
+torch_cache/
+*.pt
+*.pth
+*.tar.gz

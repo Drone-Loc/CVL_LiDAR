@@ -1,0 +1,48 @@
+{
+  "camera": {
+    "camera_model": "plumb_bob",
+    "distortion_coeffs": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "intrinsics": [
+      645.2,
+      645.2,
+      640.0,
+      360.0
+    ]
+  },
+  "meta": {
+    "bag_names": [
+      "drone_4_calib.bag"
+    ],
+    "camera_info_topic": "/camera/color/camera_info",
+    "data_path": "/tmp/input_bags",
+    "image_topic": "/camera/color/image_raw",
+    "intensity_channel": "intensity",
+    "points_topic": "/cloud_registered_body"
+  },
+  "results": {
+    "T_lidar_camera": [
+      0.0013259092437000676,
+      0.008584505279312041,
+      -0.021285998444359088,
+      -0.469419903782341,
+      -0.4651490161893509,
+      0.5277560403762731,
+      0.5336243140238409
+    ],
+    "init_T_lidar_camera": [
+      0.00909522082656622,
+      0.03161335363984108,
+      -0.02978534623980522,
+      -0.46158160574926466,
+      -0.4633378763044755,
+      0.534526429223335,
+      0.5352961094275241
+    ]
+  }
+}
